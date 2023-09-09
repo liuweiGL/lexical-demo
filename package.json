@@ -1,0 +1,33 @@
+{
+  "name": "lexical-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lexical/clipboard": "^0.12.2",
+    "@lexical/html": "^0.12.2",
+    "@lexical/react": "^0.12.2",
+    "@lexical/rich-text": "^0.12.2",
+    "@lexical/selection": "^0.12.2",
+    "lexical": "^0.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "yjs": "^13.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-mkcert": "^1.16.0"
+  }
+}

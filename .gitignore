@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+.vite
+
+# testing
+coverage
+
+# production
+build
+build-ssr
+dist
+dist-ssr
+
+# misc
+.DS_Store
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.mocks/
+
+*.log
+.eslintcache
+
+# Test 文件
+Test.ts*
